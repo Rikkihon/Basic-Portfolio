@@ -12,7 +12,7 @@ background-image: url(/Users/rikki/Desktop/Basic-Portfolio/assets/images/circles
 
 }
 
-li {
+li, ul {
     display: block;
     background-color: #ffffff;
     color: #666666;
@@ -20,6 +20,10 @@ li {
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 100px;
     width: 270px;
+}
+
+a { color: #666666;
+
 }
 
 h1 {color: #FFFFFF;
@@ -73,6 +77,10 @@ form {height: 350px;
     margin: 10px;
 
 }
+h3 {
+   text-align: center;
+   color:#777777;
+}
 .MainHeader{
     height: 700px;
     width: 630px;
@@ -97,6 +105,8 @@ form {height: 350px;
     padding: 0, 15 px;
     float: right;
     display: inline-block;
+    position: relative;
+    top: 100px;
 }
 footer {
     width: 970px;
@@ -112,18 +122,21 @@ footer {
 
 .Menu {
     width: 200px;
-    height: 100px;
+    height: 60px;
     float: right;
     color: #777777;
     display: inline block;
-    background-color: #ffffff;
-
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 40px;
 
 }
 
-.small gray line {
+.Smallgray{
     height: 10px;
-    color: #777777;
+    background-color: #777777;
+    width: 200px;
+    
 }
 
 </style>
