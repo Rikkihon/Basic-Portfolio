@@ -12,17 +12,13 @@ background-image: url(/Users/rikki/Desktop/Basic-Portfolio/assets/images/circles
  border-top-color: #cccccc;
 
 }
-/*
-li, ul {
-    display: block;
+
+.Portfolio {
+    height: 700px;
+    width: 630px;
+    display: inline-block;
     background-color: #ffffff;
-    color: #666666;
-    font-size: 14pt;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 200px;
-    height: 60px;
-    float: right;
-}*/
+}
 
 a { color: #666666;
     text-decoration: none;
@@ -96,6 +92,14 @@ h3 {
    left: 40px;
 }
 
+h4 {color: #FFFFFF;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 12pt;
+    background-color: #4aaaa5;
+    opacity: .9;
+    height: 70px;
+    width: 180px;
+ }
 sub {
     color: #cccccc;
     text-align: center;
@@ -176,5 +180,14 @@ form {
     padding-left: 10px;
     margin: 10px;
     
+}
+table { 
+    height: 700px;
+    width: 630px;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 15px;
 }
 </style>
