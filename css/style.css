@@ -53,8 +53,8 @@ h2 {color: #4aaaa5;
     text-align: left;
     background-color: #ffffff;
     float: clear;
-    width: 270px;
-    padding: 20px;
+    width: 250px;
+    padding: 15px;
 }
 
 
@@ -125,7 +125,7 @@ sub {
     background-color: #ffffff;
     display: block;
     margin: 0px;
-    padding: 0, 15 px;
+    padding: 0, 15px;
     float: right;
     display: inline-block;
     position: relative;
@@ -190,35 +190,16 @@ table {
 }
 
 .tablecells {
+    width: 630px;
     height: auto;
     background-color: #ffffff;
     float: left;
-    position: top;
     display: inline;
-
-
 }
 
-td {
-height: 200px;
-width: 200px;
-background-color: #ffffff;
-float: left;
-position: top;
-padding: 0;
-margin: auto;
-}
-tr {
-    height: 200px;
-    width: 200px;
-    background-color: #ffffff;
-    float: left;
-    position: top;
-    padding: 0;
-    margin: auto;
-    }
 
 tbody {
+        float: left;
         display: table-row-group;
         vertical-align: top;
         border-color: inherit;
