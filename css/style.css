@@ -18,6 +18,7 @@ background-image: url(/Users/rikki/Desktop/Basic-Portfolio/assets/images/circles
     width: 630px;
     display: inline-block;
     background-color: #ffffff;
+   list-style-type: none;
 }
 
 a { color: #666666;
@@ -73,12 +74,11 @@ float: left;
 overflow: auto;
 
 }
+
  header{
     display: block;
     border-bottom: #666666;
     border: 3px;
-    
-    
 } 
 
 form {height: 350px;
@@ -96,9 +96,9 @@ h4 {color: #FFFFFF;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 12pt;
     background-color: #4aaaa5;
-    opacity: .9;
-    height: 70px;
+    height: 75px;
     width: 180px;
+    
  }
 sub {
     color: #cccccc;
@@ -182,12 +182,48 @@ form {
     
 }
 table { 
-    height: 700px;
-    width: 630px;
-    background-color: #ffffff;
+    height: auto;
+    float: left;
+    position: top;
+    color: #ffffff;
+
 }
 
-th, td {
-    padding: 15px;
+.tablecells {
+    height: auto;
+    background-color: #ffffff;
+    float: left;
+    position: top;
+    display: inline;
+
+
+}
+
+td {
+height: 200px;
+width: 200px;
+background-color: #ffffff;
+float: left;
+position: top;
+padding: 0;
+margin: auto;
+}
+tr {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    float: left;
+    position: top;
+    padding: 0;
+    margin: auto;
+    }
+
+tbody {
+        display: table-row-group;
+        vertical-align: top;
+        border-color: inherit;
+        background-color: #ffffff;
+        color: #FFFFFF;
+    
 }
 </style>
