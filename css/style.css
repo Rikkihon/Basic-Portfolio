@@ -82,10 +82,14 @@ overflow: auto;
 } 
 
 form {height: 350px;
-    width: 650px;
+    width: 600px;
     margin: 10px;
+    float: left;
+    padding: 12px 10px;
+    border: 2px #666666;
 
 }
+
 h3 {
    text-align: center;
    color:#777777;
@@ -206,5 +210,8 @@ tbody {
         background-color: #ffffff;
         color: #FFFFFF;
     
+}
+label {
+   
 }
 </style>
